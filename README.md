@@ -39,39 +39,39 @@ In this stage, I gathered and reviewed the dataset to understand its structure, 
 
 The dataset contains 22 columns and 638 rows, covering sales and profit data across countries, market segments, and time periods.
 
-Key Variables:
+**Key Variables:**
 
-Segment – Business or customer category (e.g., Consumer, Corporate, Home Office).
+* Segment – Business or customer category (e.g., Consumer, Corporate, Home Office).
 
-Country – Geographic location of the sale.
+* Country – Geographic location of the sale.
 
-Product – Specific product sold.
+* Product – Specific product sold.
 
-Discount Band – Category of discount applied (e.g., None, Low, High).
+* Discount Band – Category of discount applied (e.g., None, Low, High).
 
-Units Sold – Quantity of product sold.
+* Units Sold – Quantity of product sold.
 
-Manufacturing Price – Production cost per unit.
+* Manufacturing Price – Production cost per unit.
 
-Sale Price – Selling price per unit before discounts.
+* Sale Price – Selling price per unit before discounts.
 
-Gross Sales – Total revenue before discounts (Sale Price × Units Sold).
+* Gross Sales – Total revenue before discounts (Sale Price × Units Sold).
 
-Discounts – Value of discounts given.
+* Discounts – Value of discounts given.
 
-Sales – Net sales amount after discounts.
+* Sales – Net sales amount after discounts.
 
-COGS (Cost of Goods Sold) – Total cost to produce units sold.
+* COGS (Cost of Goods Sold) – Total cost to produce units sold.
 
-Profit – Net gain from sales (Sales – COGS).
+* Profit – Net gain from sales (Sales – COGS).
 
-Date / Month / Year – Transaction time details.
+* Date / Month / Year – Transaction time details.
 
-Profit Margin – Profit percentage from sales (Profit ÷ Sales).
+* Profit Margin – Profit percentage from sales (Profit ÷ Sales).
 
-Average Revenue per Unit – Revenue earned per unit sold.
+* Average Revenue per Unit – Revenue earned per unit sold.
 
-Discount Rate – Percentage discount applied.
+* Discount Rate – Percentage discount applied.
 
 This stage confirmed the dataset’s completeness and relevance, providing a strong foundation for transformation and deeper analysis.
 
@@ -85,7 +85,7 @@ This stage confirmed the dataset’s completeness and relevance, providing a str
 
 In this stage, I focused on preparing the dataset to ensure accuracy, consistency, and reliability for analysis. The sales and profit data (imported as CSV files) was cleaned and transformed in Power Query (Excel) to create a structured dataset.
 
-Key transformation steps:
+**Key transformation steps:**
 
 * Standardized column names by correcting errors and inconsistencies at import.
 
@@ -137,8 +137,124 @@ At this stage, I utilized Excel visualizations and dashboards to explore the cle
 
   **Profit Margins:** 
 
-  *VTT (40.3%), Paseo (37.4%), and Velo (35.2%) performed best, while Amarilla (18.9%) flagged a pricing/cost challenge.
+* VTT (40.3%), Paseo (37.4%), and Velo (35.2%) performed best, while Amarilla (18.9%) flagged a pricing/cost challenge.
 
-Takeaway: The Government segment showed strong year-over-year growth, but discount-heavy products and margin erosion in Amarilla highlight areas for optimization.
+**Takeaway:**
+The Government segment showed strong year-over-year growth, but discount-heavy products and margin erosion in Amarilla highlight areas for optimization.
 
-![](https://github.com/Thetelegram212/Company-Finacial-Performance/blob/main/Screenshot%202025-07-23%20191203.png)
+![](https://github.com/JudeNwagu/Financial-Data-Analysis-for-Business-Sustainability/blob/main/Finacial%20Dashboard.png)
+
+---
+
+## Share
+
+**Communicating Insights and Findings**
+
+In this stage, I focused on presenting analysis results in a clear, concise, and actionable format tailored to business stakeholders. Using Excel dashboards and visuals, I transformed raw data into meaningful narratives that directly aligned with the company’s financial objectives.
+
+**Communication Tools:**
+
+* Interactive Excel Dashboard – Included slicers for Segment and Year to allow dynamic exploration of financial performance.
+
+* Visual Charts – Used a mix of line graphs, bar charts, and donut charts to highlight:
+
+* Yearly trends in Sales and Profit
+
+* COGS by Product
+
+* Profit Margins by Product
+
+* Sales & Profits by Country
+
+* Unit Discount Distribution
+
+**📌 Summary of Key Findings Shared:**
+
+* The Government Segment (2013) showed exceptional growth with Profit +195% and Sales +201% YoY.
+
+* Top Markets: Germany and the USA drove the highest profitability.
+
+* High-Margin Products: VTT and Paseo performed strongly, while Amarilla showed low margins despite high COGS.
+
+* Seasonality: Sales and profit spiked in October and December, signaling opportunities for targeted campaigns.
+
+**Stakeholder Relevance:**
+The dashboard and visuals allowed non-technical stakeholders to:
+
+* Quickly identify top-performing regions and products.
+
+* Spot inefficiencies such as high discounting and low-margin items.
+
+* Support data-driven decisions on pricing, promotions, and inventory planning.
+
+---
+
+##  Act 
+
+**Driving Business Decisions and Taking Action**
+
+
+In the final stage, I translated analytical insights into strategic recommendations to guide financial and operational decisions for sustained business performance.
+
+**Key Recommended Actions:**
+
+**Strengthen High-Performing Product Lines**
+
+* Invest further in Paseo, Velo, and VTT, which showed strong sales and high profit margins.
+
+* Expand distribution or explore bundling strategies around these top performers.
+
+**Optimize Low-Margin Products**
+
+* Amarilla posted decent sales but the lowest profit margin (18.9%).
+
+* Conduct a cost review or adjust pricing to improve profitability.
+
+**Target High-Yield Markets**
+
+* Prioritize Germany and the USA, which delivered the highest returns.
+
+* Use these markets as pilots for new offers and pricing models.
+
+**Leverage Seasonal Trends**
+
+* Allocate more budget and inventory in Q4 (October & December) when sales and profits peak.
+
+* Run targeted promotional campaigns to maximize ROI during this period.
+
+**Review Discounting Strategy**
+
+* Discounts totaled $3M, with heavy reductions on Velo and Paseo.
+
+* Reassess policies to ensure discounts drive revenue growth without eroding margins.
+
+**Monitor Decline in Avg. Revenue per Unit**
+
+* Average revenue per unit dropped by 1%, despite overall growth.
+
+* Explore bundling, upselling, or value-added services to increase per-unit value.
+
+Outcome: These actions bridge the gap between data-driven insights and business strategy, supporting profitability, market focus, and sustainable growth.
+
+
+---
+
+### **Conclusion**
+
+This project delivers a comprehensive analysis of the company’s financial performance in the Government segment (2013), using Excel and Power Query as the primary tools. Applying the six stages of the data analytics process — Ask, Prepare, Process, Analyze, Share, and Act — I transformed raw sales data into actionable business insights.
+
+**Key findings:**
+
+Profits grew by +195% YoY and sales by +201% YoY, driven by strong product lines (e.g., Paseo) and markets such as Germany.
+
+Challenges included a 1% decline in average revenue per unit, high discounting costs ($3M), and low-margin products such as Amarilla (18.9%).
+
+Through a well-structured interactive dashboard, I visualized key trends and performance drivers, enabling stakeholders to:
+
+* Optimize pricing strategies.
+
+* Enhance product profitability.
+
+* Maximize market opportunities.
+
+Impact: This analysis empowers decision-makers with data-driven recommendations to sustain financial growth and improve operational efficiency.
