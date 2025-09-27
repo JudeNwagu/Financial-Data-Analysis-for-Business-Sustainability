@@ -123,7 +123,7 @@ At this stage, I utilized Excel visualizations and dashboards to explore the cle
 * Total Discounts: $3.0M (+224% vs. LY)
 
 
-** Trend & Performance Highlights:**
+**Trend & Performance Highlights:**
 
 * Seasonality: Sales and profit peaked in October and December, showing seasonal spikes in government purchases.
 
